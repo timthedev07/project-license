@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Generate different types of licenses in the current directory",
   "main": "dist/index.js",
+  "bin": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc"
