@@ -1,0 +1,32 @@
+{
+  "name": "license-gen-cli",
+  "version": "1.0.0",
+  "description": "Generate different types of licenses in the current directory",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RelentlessExploration/license-gen-cli.git"
+  },
+  "keywords": [
+    "license",
+    "generator"
+  ],
+  "author": "Tim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RelentlessExploration/license-gen-cli/issues"
+  },
+  "homepage": "https://github.com/RelentlessExploration/license-gen-cli#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^7.3.2",
+    "@types/node": "^16.0.0"
+  }
+}
