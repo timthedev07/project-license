@@ -1,6 +1,6 @@
 {
   "name": "project-license",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate different types of licenses in the current directory",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RelentlessExploration/license-gen-cli.git"
+    "url": "git+https://github.com/timthedev07/project-license.git"
   },
   "keywords": [
     "license",
@@ -19,10 +19,11 @@
   "author": "Tim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RelentlessExploration/license-gen-cli/issues"
+    "url": "https://github.com/timthedev07/project-license/issues"
   },
-  "homepage": "https://github.com/RelentlessExploration/license-gen-cli#readme",
+  "homepage": "https://github.com/timthedev07/project-license#readme",
   "dependencies": {
+    "benawad": "^1.0.0",
     "fs": "^0.0.1-security",
     "inquirer": "^8.1.1"
   },
